@@ -1,0 +1,29 @@
+.advanced-options {
+  width: 240px;
+  text-align: justify;
+}
+
+.input-css {
+  height: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.link {
+  margin: 20px 0;
+  color: var(--main-color);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+i {
+  text-align: justify;
+  margin-top: 15px;
+  color: #ffffff;
+  line-height: 1.5em;
+  font-size: 12px;
+}

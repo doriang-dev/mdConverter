@@ -1,0 +1,54 @@
+.input-md {
+  height: 50px;
+  font-size: 14px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  border-radius: var(--radius);
+  background-color: var(--main-color);
+  margin: 20px 0;
+  border: none;
+  outline: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0a469a;
+  color: #ffffff;
+  transform: scale(1.02);
+}
+
+/* DROPDOWN */
+
+.control {
+  background-color: #5dbcd2;
+  border: none;
+  border-radius: 4px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.control:hover {
+  background-color: #0a469a;
+  color: #ffffff;
+}
+
+.arrow {
+  display: none;
+}

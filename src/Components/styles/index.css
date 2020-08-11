@@ -1,0 +1,19 @@
+:root {
+  --radius: 4px;
+  --main-color: #5dbcd2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+}
+
+.module {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+}

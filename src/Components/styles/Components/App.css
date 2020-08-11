@@ -1,0 +1,10 @@
+.App-container {
+  background-color: #af3e39;
+  background: linear-gradient(110deg, #cfa46b 50%, #af3e39 50%);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 2fr;
+  padding-top: 75px;
+  /* 2nd column must be empty */
+  /* TODO: add media queries for support mobile and responsive */
+}
